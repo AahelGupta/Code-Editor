@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Frontend Code Editor</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="editor-section">
+
+      <div class="tabs">
+        <button class="tab active" data-target="html">HTML</button>
+        <button class="tab" data-target="css">CSS</button>
+        <button class="tab" data-target="js">JS</button>
+      </div>
+
+      <textarea id="html" class="code active">
+<h1>Hello World 🚀</h1>
+<p>Edit your code and run it.</p>
+
+<button onclick="changeText()">
+  Click Me
+</button>
+      </textarea>
+
+      <textarea id="css" class="code">
+body{
+  font-family: Arial;
+  text-align:center;
+  padding:40px;
+  background:#f5f5f5;
+}
+
+h1{
+  color:#2563eb;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  background:#2563eb;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+      </textarea>
+
+      <textarea id="js" class="code">
+function changeText(){
+  document.querySelector("h1").innerHTML =
+  "Button Clicked 🎉";
+}
+      </textarea>
+
+    </div>
+
+    <div class="preview-section">
+      <div class="toolbar">
+        <button id="runBtn">Run Code</button>
+      </div>
+
+      <iframe id="preview"></iframe>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
