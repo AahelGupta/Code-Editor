@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:38BDF8&height=180&section=header&text=Interactive%20Frontend%20Code%20Editor&fontSize=38&animation=twinkling&desc=Real-time%20HTML%2C%20CSS%2C%20%26%20JavaScript%20playground)
+  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:38BDF8&height=180&section=header&text=Interactive%20Frontend%20Code%20Editor&fontSize=38&animation=twinkling&desc=Real-time%20HTML%2C%20CSS%2C%20and%20JavaScript%20playground)
 
   <br/>
 
